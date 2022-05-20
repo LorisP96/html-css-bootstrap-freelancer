@@ -133,7 +133,22 @@ footer {
 footer > section:first-child {
     background-color: #3a546d;
 }
-/* #3a546d */
+
 footer > section:last-child {
     background-color: #2c3e50;
+}
+
+.ms_icon_box span {
+    display: inline-block;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 3.8px;
+}
+
+ #brand-link {
+    color: aqua;
 }
