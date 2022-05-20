@@ -101,6 +101,29 @@ header h3 {
     border-radius: 15px;
 }
 
+.form-floating > label {
+    color: #6c757d;
+}
+
+.form-control {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid #d0d5db;
+}
+
+form > .btn {
+    border-color: var(--green);
+    background-color: var(--green)
+}
+
 /********************* FOOTER **********************/
 
 footer {
